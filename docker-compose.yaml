@@ -8,7 +8,4 @@ services:
       context: .
       dockerfile: Dockerfile
       platforms: 
-        - linux/amd64
-    working_dir: /app
-    volumes:
-      - .:/app
+        - linux/arm64

@@ -1,4 +1,4 @@
-const rocksdb = require('rocksdb');
+const rocksdb = require('@farcaster/rocksdb');
 
 const db = rocksdb('/tmp/demo.db')
 
